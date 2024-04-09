@@ -1,0 +1,109 @@
+.section-foryou {
+
+    .section-container {
+
+        .section-header {
+
+            .title-section {}
+        }
+
+        .section-body {
+
+            .foryou-child1 {
+
+                .bg-image-foryou {
+                    background-image: url('../Section/csyte.png');
+                    width: 200px;
+                    border-radius: 50%;
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat !important;
+                    background-size: cover;
+                }
+
+                .foryou-name {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-left: 50px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(0, 204, 255);
+                }
+            }
+
+            .foryou-child2 {
+
+                .bg-image-foryou {
+                    background-image: url('../Section/bsi.png');
+                    width: 200px;
+                    border-radius: 50%;
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat !important;
+                    background-size: cover;
+                }
+
+                .foryou-name {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-left: 70px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(0, 204, 255);
+                }
+            }
+
+            .foryou-child3 {
+
+                .bg-image-foryou {
+                    background-image: url('../Section/ckh.png');
+                    width: 200px;
+                    border-radius: 50%;
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat !important;
+                    background-size: cover;
+                }
+
+                .foryou-name {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-left: 40px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(0, 204, 255);
+                }
+            }
+
+            .foryou-child4 {
+
+                .bg-image-foryou {
+                    background-image: url('../Section/bvi.png');
+                    width: 200px;
+                    border-radius: 50%;
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat !important;
+                    background-size: cover;
+                }
+
+                .foryou-name {
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-left: 70px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(0, 204, 255);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.more-doctor {
+    padding: 0 240px;
+
+    .title-more-doctor {
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    .doctor-body {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .doctor-child {
+            display: flex;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e1dede;
+
+            .bg-image {
+                width: 280px;
+                height: 160px;
+                background-color: #eee;
+                background-position: center;
+                background-repeat: no-repeat !important;
+                background-size: cover;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .doctor-title-content {
+                display: flex;
+                flex-direction: column;
+                margin-left: 15px;
+
+                .doctor-name {
+                    font-size: 20px;
+                    text-align: justify;
+                    font-weight: 600;
+
+                    &:hover {
+                        cursor: pointer;
+                        color: rgb(238, 111, 111);
+                    }
+                }
+
+                .doctor-date {
+                    color: rgb(232, 52, 52);
+                }
+
+            }
+
+        }
+
+
+    }
+}

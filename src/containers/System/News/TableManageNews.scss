@@ -1,0 +1,62 @@
+#TableManageNews {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#TableManageNews td,
+#TableManageNews th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#TableManageNews tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#TableManageNews tr:hover {
+    background-color: #ddd;
+}
+
+#TableManageNews th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.btn-edit {
+    width: 60px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: orange;
+    height: 50px;
+    margin-right: 6px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: transparent !important;
+        color: orange !important;
+        background-color: #999 !important;
+    }
+}
+
+.btn-delete {
+    width: 60px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(235, 15, 15);
+    height: 50px;
+    margin-left: 6px;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: transparent !important;
+        color: rgb(235, 15, 15) !important;
+        background-color: #999 !important;
+    }
+}

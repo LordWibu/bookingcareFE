@@ -1,0 +1,172 @@
+.search-container {
+    margin: 20px 200px;
+
+    .doctor-title {
+        font-weight: 600;
+        font-size: 18px;
+        width: 100%;
+        padding: 3px 4px;
+        background-color: #F5F5F5;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .search-input {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        width: fit-content;
+        border-radius: 28px;
+        background-color: #f7d800;
+        width: 100%;
+        margin-bottom: 20px;
+
+        i {
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        input {
+            height: 30px;
+            width: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+    }
+
+    .data-doctor {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 10px;
+
+        .no-doctor {
+            font-size: 19px;
+            font-weight: 600;
+            color: #d9d9d9;
+        }
+
+        .search-doctor {
+            display: flex;
+            border-bottom: 1px solid #d9d9d9;
+            padding-bottom: 10px;
+
+            .bg-image-search-doctor {
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                background-position: center center;
+                background-repeat: no-repeat !important;
+                background-size: cover;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+            }
+
+            .doctor-text {
+                font-size: 17px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #0adffb;
+                }
+
+                .doctor-name {}
+
+                .text-specialty {
+                    font-size: 14px;
+                    color: #999;
+                }
+            }
+        }
+    }
+
+    .data-clinic {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 10px;
+
+        .no-clinic {
+            font-size: 19px;
+            font-weight: 600;
+            color: #d9d9d9;
+        }
+
+        .search-clinic {
+            display: flex;
+            border-bottom: 1px solid #d9d9d9;
+            padding-bottom: 10px;
+
+            .bg-image-search-clinic {
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                background-position: center center;
+                background-repeat: no-repeat !important;
+                background-size: cover;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+            }
+
+            .clinic-text {
+                font-size: 17px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #0adffb;
+                }
+            }
+        }
+    }
+
+    .data-specialty {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 10px;
+
+        .no-specialty {
+            font-size: 19px;
+            font-weight: 600;
+            color: #d9d9d9;
+        }
+
+        .search-specialty {
+            display: flex;
+            border-bottom: 1px solid #d9d9d9;
+            padding-bottom: 10px;
+
+            .bg-image-search-specialty {
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+                background-position: center center;
+                background-repeat: no-repeat !important;
+                background-size: cover;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .specialty-text {
+                font-size: 17px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #0adffb;
+                }
+            }
+        }
+    }
+}

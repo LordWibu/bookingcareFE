@@ -1,0 +1,223 @@
+.home-header-container {
+    height: 60px;
+    width: 100%;
+    padding: 0 44px;
+    position: fixed;
+    background: white;
+    z-index: 1;
+    top: 0;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .header-logo {
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+                transform: scale(0.6, 0.6);
+                margin-left: -52px;
+            }
+
+            i {
+                font-size: 25px;
+                color: gray;
+                cursor: pointer;
+            }
+        }
+
+        .center-content {
+            width: 55%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .child-content {
+                cursor: pointer;
+
+                .subs-title {
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .right-content {
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .login-doctor-admin {
+                margin-right: 20px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: rgb(79, 247, 247);
+                    font-weight: 800;
+                }
+            }
+
+            .support {
+                align-items: center;
+                justify-content: center;
+                padding-right: 50px;
+                cursor: pointer;
+
+                i {
+                    font-size: 15px;
+                    margin-right: 5px;
+                }
+            }
+
+            .language-vi {
+                cursor: pointer;
+                opacity: 0.3;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: rgb(215, 156, 45);
+                    }
+
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+            .language-en {
+                margin: 0 10px;
+                cursor: pointer;
+                opacity: 0.3;
+
+                &.active {
+                    opacity: 1;
+
+                    span {
+                        color: rgb(39, 161, 213);
+                    }
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background-image: url('../../assets/header_background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+
+    .content-up {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        height: 65%;
+        padding-top: 56px;
+
+        .title1 {
+            text-align: center;
+            font-size: 32px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            margin-top: 50px;
+            color: white;
+            font-weight: 500;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 32px;
+            text-shadow: 1px 1px 1px #333;
+            color: white;
+            font-weight: 500;
+            margin-bottom: 36px;
+        }
+
+        .search {
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            width: fit-content;
+            border-radius: 28px;
+            background-color: #f7d800;
+
+            i {
+                margin: 0 5px;
+                cursor: pointer;
+            }
+
+            input {
+                height: 30px;
+                width: 400px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+
+    .content-down {
+        height: 35%;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+        .options {
+            gap: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+
+            .option-child {
+                width: 125px;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #49bce2;
+                }
+
+                .icon-child {
+                    background: white;
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+
+                    i {
+                        color: #49bce2;
+                        font-size: 22px;
+                    }
+                }
+
+                .text-child {
+                    font-weight: 600;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}

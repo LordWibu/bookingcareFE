@@ -1,0 +1,192 @@
+.slick-prev {
+    left: -10px !important;
+    z-index: 1;
+    height: 44px !important;
+    width: 48px !important;
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #f9f2f2 !important;
+    }
+}
+
+.slick-prev::before {
+    color: #e54545 !important;
+    font-family: FontAwesome !important;
+}
+
+.slick-next {
+    right: 15px !important;
+    height: 44px !important;
+    width: 48px !important;
+
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+
+    &:hover {
+        background: #f9f2f2 !important;
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+.slick-next::before {
+    color: #e54545 !important;
+    font-family: FontAwesome !important;
+}
+
+.section-share {
+    &.section-specialty {
+        background: #f5f5f5;
+
+    }
+
+    &.section-outstanding-doctor {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        height: 500px !important;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+    }
+
+    .section-body {
+
+        .section-customize {
+            padding: 5px;
+            cursor: pointer;
+
+            .customize-border {
+                border: 1px solid orange;
+                width: 94%;
+                padding: 12px;
+            }
+
+            .bg-image {
+                width: 280px;
+                height: 150px;
+                background-color: #eee;
+                background-position: center center;
+                background-repeat: no-repeat !important;
+                background-size: cover;
+
+                &.section-specialty {
+                    //background-image: url('../../assets/specialty/co-xuong-khop.jpg');
+
+                }
+
+                &.section-medical-facility {
+                    //background-image: url('../../assets/medical-facility/benh-vien-thu-cuc-1.jpg');
+
+                }
+
+                &.section-outstanding-doctor {
+                    // background-image: url('../../assets/medical-facility/anh-bs.jpg');
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+
+                }
+
+                &.section-handbook {
+                    background-image: url('../../assets/handbook/xet-nghiem.png');
+                }
+            }
+        }
+
+
+    }
+}
+
+.section-share {
+    height: 330px;
+
+
+    .section-container {
+        margin: 0 240px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 60px;
+            margin-bottom: 30px;
+            padding-top: 30px;
+
+            .title-section {
+                font-weight: 600;
+                font-size: 23px;
+            }
+
+            .btn-section {
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background-color: #ebebeb;
+                color: black;
+                cursor: pointer;
+
+                &:hover {
+                    color: white;
+                    background-color: #f7d800;
+                }
+            }
+        }
+
+
+    }
+}
+
+//reset slick slider-css
+.section-outstanding-doctor {
+    .outer-bg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+.home-footer {
+    text-align: center;
+    padding-top: 8px;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.section-about {
+    padding: 0 100px;
+
+    .section-about-header {
+        padding: 20px 10px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .section-about-content {
+        display: flex;
+        width: 100%;
+
+        .content-left {
+            width: 60%;
+        }
+
+        .content-right {
+            width: 40%;
+
+            p {
+                text-align: justify;
+                font-style: italic;
+                padding-top: 20px;
+            }
+        }
+    }
+}

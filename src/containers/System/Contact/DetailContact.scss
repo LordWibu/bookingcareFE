@@ -1,0 +1,18 @@
+.booking-modal-body {
+    padding: 80px 300px;
+
+    .btn-phanhoi {
+        width: 80px;
+        border: none;
+        outline: none;
+        background-color: rgb(15, 235, 235);
+        height: 40px;
+        margin-left: 12px;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: rgb(88, 226, 244) !important;
+        }
+    }
+
+}

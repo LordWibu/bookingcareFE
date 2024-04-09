@@ -1,0 +1,37 @@
+.more-specialty {
+    padding: 0 240px;
+
+    .title-more-specialty {
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    .specialty-body {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .specialty-child {
+
+            .bg-image {
+                width: 280px;
+                height: 150px;
+                background-color: #eee;
+                background-position: center center;
+                background-repeat: no-repeat !important;
+                background-size: cover;
+                border-radius: 4px;
+            }
+
+            .specialty-name {
+                font-size: 18px;
+                text-align: justify;
+                width: 280px;
+                font-weight: 600;
+            }
+        }
+
+
+    }
+}
